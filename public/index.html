@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chat App</title>
+    <link rel="img" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/styles.min.css" />
   </head>
   <body>
     <H1>Chat app</H1>
@@ -17,7 +19,12 @@
 
     <script id="message-template" type="/text/html">
       <div>
-        <p>{{message}}</p>
+        <p>{{createAt}} - {{message}}</p>
+      </div>
+    </script>
+    <script id="location-message-template" type="/text/html">
+      <div>
+        <p>{{createAt}} - <a href="{{url}}" target="_blank">My current location</a></p>
       </div>
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
