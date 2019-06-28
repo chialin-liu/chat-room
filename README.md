@@ -1,6 +1,7 @@
 # chat-room
 Chat room with NodeJS
-![image](https://github.com/chialin-liu/chat-room/blob/master/chat_room.png)
+![image](https://github.com/chialin-liu/chat-room/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-29%20%E4%B8%8A%E5%8D%8812.04.53.png)
+![image](https://github.com/chialin-liu/chat-room/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-29%20%E4%B8%8A%E5%8D%8812.06.48.png)
 https://chat-app-liuchialin.herokuapp.com/
 
 Create a chat application for users to chat using NodeJS and Socket.IO
