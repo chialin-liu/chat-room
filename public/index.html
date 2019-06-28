@@ -6,25 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chat App</title>
     <link rel="img" href="/img/favicon.png" />
-    <link rel="stylesheet" href="/css/styles.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <div class="centered-form">
-      <div class="centered-form__box">
-        <h1>Join</h1>
-        <form action="/chat.html">
-          <label for="">Display Name</label>
-          <input
-            type="text"
-            name="username"
-            placeholder="Display Name"
-            required
-          />
-          <label for="">Room</label>
-          <input type="text" name="room" placeholder="Room" required />
-          <button>Join</button>
-        </form>
+    <header class="header">
+      <div class="centered-form">
+        <div class="centered-form__box">
+          <h1>Chat Room</h1>
+          <form action="/chat.html">
+            <!-- <label for="">Display Name</label> -->
+            <input
+              type="text"
+              name="username"
+              placeholder="Type Name"
+              required
+            />
+            <!-- <label for="">Room</label> -->
+            <input type="text" name="room" placeholder="Enter Room" required />
+
+            <button></button>
+          </form>
+        </div>
       </div>
-    </div>
+    </header>
   </body>
 </html>

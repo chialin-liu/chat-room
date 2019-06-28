@@ -13,7 +13,7 @@ const {
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
-const PORT = process.env.PORT || 3900;
+const PORT = process.env.PORT || 3990;
 const publicPath = path.join(__dirname, "../public");
 app.use(express.static(publicPath));
 let count = 0;
